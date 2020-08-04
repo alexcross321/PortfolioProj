@@ -16,3 +16,20 @@ body{
 	margin-top:1em;
 	max-width:95%;
 }
+
+ul {
+	list-style-type: none;
+	margin: 1em;
+	padding: 1em;
+	overflow: hidden;
+	border: 2px solid white;
+	background-color: blue;
+	position: sticky;
+	top: 0;
+	width:;
+}
+
+li{
+	float:left;
+	border-right: 2px solid white;
+}
