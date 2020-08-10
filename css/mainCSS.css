@@ -20,6 +20,23 @@ h3{
 	padding-left: 1em;
 }
 
+img{
+	width: 80%;
+	height: auto;
+
+}
+
+hr{
+	width: 90%;
+	margin-left: 0;
+}
+.works{
+	text-align: center;
+	background-color: #7389ae;
+	border-radius: 1em;
+	color: white;
+}
+
 .logo-pic{
 	width: 4.5em;
 	height: 4.6em;
@@ -32,12 +49,16 @@ h3{
 	font-size: 6em;
 	position: relative;
 	transition: .5s ease;
+	padding-bottom:0;
+	margin-bottom: 0;
+	margin-right: 1em;
 }
 
 .heading2{
 	font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
-	transition: .5s ease;
-	font-size: 4em;
+	transition: 1s ease;
+	font-size: 2em;
+	padding-top: 0;
 }
 
 .frontgrid{
@@ -55,10 +76,16 @@ h3{
 
 .grid-item{
 	height: 40%;
-	width: 30%;
+	width: 50%;
 	padding: 1em 1em;
-	flex: 1 1 40%;
-	transition: .5s ease;
+	flex: 1 1 45%;
+	transition: 1s ease;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.grid-item:hover{
+	opacity: 1;
 }
 
 
@@ -66,14 +93,16 @@ h3{
 	height:auto;
 	width: 20%;
 	flex: 1 1 20%;
-	transition: .5s ease;
+	transition: 1s ease;
+	padding: 1em;
 }
 
 .frontitem2{
 	height:auto;
-	width: 20%;
-	flex: 1 1 5%;
+	width: 10%;
+	flex: 1 1 10%;
 	transition: .5s ease;
+
 }
 nav{
 	margin-bottom: 5em;
@@ -109,10 +138,12 @@ footer{
 
 a{
 	color: #344966;
+	text-decoration: none;
 }
 
 a:hover{
 	color: #0D1821;
+
 }
 
 div {
